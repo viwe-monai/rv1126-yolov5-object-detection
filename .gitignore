@@ -1,0 +1,33 @@
+# Generated CMake build files
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.log
+/atk_yolov5_object_recognize
+
+# Per-user editor configuration
+.vscode/
+.idea/
+*.code-workspace
+*.user
+*.swp
+*~
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep the original libeasymedia shared-library dependencies in lib/.
